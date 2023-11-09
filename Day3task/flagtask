@@ -1,0 +1,9 @@
+def display_flag(flag_url):
+    try:
+        response = requests.get(flag_url)
+        if response.status_code == 200:
+            print(response.text)  # Display the flag (in text format) in the console
+        else:
+            print(f"Failed to fetch the flag for {country['name']}")
+    except Exception as e:
+        print(f"Error displaying flag: {e}")
