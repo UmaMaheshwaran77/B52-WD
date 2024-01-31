@@ -1,0 +1,51 @@
+
+.label{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+
+.table-img{
+  width: 100px;
+}
+
+
+.view-container{
+  background-color:violet;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-cart{
+
+background-color: pink;
+padding: 20px;
+
+}
+
+.span-content{
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+  text-indent: 50px;
+}
+
+.home-container{
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
